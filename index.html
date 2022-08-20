@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="search">
+            <input type="text" id="input-box" class="input-box"placeholder="Enter City Name" autocomplete="off">
+        </div>
+        <div class="weatherbody"id="weatherbody">
+            <div class="location">
+                <div class="city" id="city"></div>
+                <div class="date" id="date"></div>
+            </div>
+            <div class="status">
+                <!-- 32&deg;C -->
+                <div class="temp" id="temp"></div> 
+                <div class="min-max"id=min-max></div>
+                <!-- 32&deg;C(min) / 34&deg;C(max) -->
+                <div class="weather"id=weather></div>
+                <!-- Clear -->
+                
+                <div class="humdity-pressure" id="humdity-pressure"></div>
+                <!-- Humdity -->
+                <div class="humdity-pressure" id="pressure"></div>
+                <!-- Pressure -->
+
+            </div>
+        </div>
+    </div>
+    <script src="jsfile.js"></script>
+</body>
+</html>
+<!-- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} -->
+<!-- 4978837bfcfb85b0452c1629b150fee5 -->
