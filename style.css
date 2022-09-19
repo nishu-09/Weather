@@ -16,13 +16,13 @@ body{
     width: 50vh;
     margin: 100px auto;
     background-color: rgba(240,248,255,0.6);
-    padding:20px;
+    padding:15px;
     text-align: center;
     color:navy;
     border-radius:3px;
 }
 .app>*{
-   margin-bottom: 40px;
+   margin-bottom: 20px;
 }
 .input-box{
     width:100%;
