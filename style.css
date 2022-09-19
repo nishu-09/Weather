@@ -18,6 +18,8 @@ body{
     background-color: rgba(240,248,255,0.6);
     padding:20px;
     text-align: center;
+    color:navy;
+    border-radius:3px;
 }
 .app>*{
    margin-bottom: 40px;
